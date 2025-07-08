@@ -32,3 +32,10 @@ Go to the backend folder: cd backend
 Install dependencies: npm install
 Set environment variables
 Update your credentials in .env file (already present) :
+
+    PORT=8001
+    MONGO_URI=mongodb://localhost:27017/your_database_name
+    JWT_SECRET=your_jwt_secret_key
+
+    
+    Run the server: node index.js
